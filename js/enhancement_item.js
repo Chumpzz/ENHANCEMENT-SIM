@@ -3,16 +3,16 @@ var enhancementRate = {
   eight: 0.2,
   nine: 0.175,
   ten: 0.15,
-  eleven: 0.125,
-  twelve: 0.1,
-  thirteen: 0.075,
-  fourteen: 0.05,
-  fifteen: 0.025,
-  sixteen: 0.15,
-  seventeen: 0.075,
-  eighteen: 0.05,
-  nineteen: 0.02,
-  twenty: 0.015
+  eleven: 0.00000125,
+  twelve: 0.000000001,
+  thirteen: 0.0000075,
+  fourteen: 0.0000025,
+  fifteen: 0.000000025,
+  sixteen: 0.000000008,
+  seventeen: 0.0000000075,
+  eighteen: 0.00000000000055,
+  nineteen: 0.000000000000002,
+  twenty: 0.0000000000000000000015
 }
 
 //max number of failStacks you can possibly have to
@@ -35,19 +35,19 @@ var failStackLimit = {
 
 //enhancement rates for each rank
 var failStackRate = {
-  eight: 0.025,
-  nine: 0.02,
+  eight: 0.0025,
+  nine: 0.002,
   ten: 0.015,
   eleven: 0.0125,
-  twelve: 0.0075,
-  thirteen: 0.063,
+  twelve: 0.075,
+  thirteen: 0.0063,
   fourteen: 0.005,
-  fifteen: 0.005,
-  sixteen: 0.015,
-  seventeen: 0.0075,
-  eighteen: 0.005,
-  nineteen: 0.0025,
-  twenty: 0.0025
+  fifteen: 0.0005,
+  sixteen: 0.0015,
+  seventeen: 0.0015,
+  eighteen: 0.000005,
+  nineteen: 0.0000025,
+  twenty: 0.00000000025
 };
 
 function getFailstackPercentage(enhanceRank) {
