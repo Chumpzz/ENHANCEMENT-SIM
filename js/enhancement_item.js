@@ -3,16 +3,16 @@ var enhancementRate = {
   eight: 0.2,
   nine: 0.175,
   ten: 0.15,
-  eleven: 0.00000125,
-  twelve: 0.000000001,
-  thirteen: 0.0000075,
-  fourteen: 0.0000025,
-  fifteen: 0.000000025,
+  eleven: 0.000125,
+  twelve: 0.0000001,
+  thirteen: 0.000005,
+  fourteen: 0.000015,
+  fifteen: 0.0000008,
   sixteen: 0.000000008,
-  seventeen: 0.0000000075,
-  eighteen: 0.00000000000055,
+  seventeen: 0.000000005,
+  eighteen: 0.0000000000005,
   nineteen: 0.000000000000002,
-  twenty: 0.0000000000000000000015
+  twenty: 0.0000000000000000015
 }
 
 //max number of failStacks you can possibly have to
