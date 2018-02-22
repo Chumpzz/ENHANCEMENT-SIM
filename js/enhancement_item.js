@@ -8,9 +8,9 @@ var enhancementRate = {
   thirteen: 0.000005,
   fourteen: 0.000015,
   fifteen: 0.00000000018,
-  sixteen: 0.00000000018,
-  seventeen: 0.0000000000030,
-  eighteen: 0.00000000000015,
+  sixteen: 0.000000018,
+  seventeen: 0.00000000030,
+  eighteen: 0.00000000015,
   nineteen: 0.000000000000002,
   twenty: 0.0000000000000000015
 }
