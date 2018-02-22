@@ -77,7 +77,7 @@ function enhancementFailure(obj, weaponId, slotNum, existingDiv) {
 
     if (obj[weaponId].enhanceRank === 15)
     {
-      failStackCount += 20;
+      failStackCount += 2;
     }
     else if (obj[weaponId].enhanceRank === 16)
     {
